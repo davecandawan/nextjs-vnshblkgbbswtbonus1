@@ -33,7 +33,7 @@ const StickyBanner: React.FC = () => {
         href="#targetselection"
         className="bg-[#6bf557] hover:bg-[#6bf557] text-black hover:text-black font-bold py-2 px-6 rounded-lg transition-colors duration-200 no-underline"
       >
-        Buy 1 Get 1 FREE
+        Get FREE Shockwave Torch
       </Link>
     </div>
   );

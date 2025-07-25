@@ -33,7 +33,9 @@ const PackageSelection: React.FC = () => {
             <div className="text-black font-bold text-xl mb-2 text-center pt-2">You Saved $60</div>
             <div className="mt-auto">
               <a
-                href={getCheckoutUrl('https://secure.vnsh.com/vnshblkgbbswtbonus/starter-checkout')}
+                href={getCheckoutUrl(
+                  'https://secure.vnsh.com/vnshblkgbbswtbonus1/starter-checkout'
+                )}
                 target="_self"
                 rel="noopener noreferrer"
                 className="block w-full"
@@ -80,7 +82,7 @@ const PackageSelection: React.FC = () => {
 
           <div className="p-4 flex-grow flex flex-col bg-[#e8e8e8]">
             <div className="flex justify-center items-center gap-2">
-              <span className="text-[40px] font-bold text-black">$199.97</span>
+              <span className="text-[40px] font-bold text-black">$229.97</span>
               <span className="text-[#ff0000] text-lg font-bold">+ Free S&H</span>
             </div>
             <div className="text-black font-bold text-xl mb-2 text-center pt-2">You Saved $330</div>
@@ -88,7 +90,7 @@ const PackageSelection: React.FC = () => {
             <div className="mt-auto">
               <a
                 href={getCheckoutUrl(
-                  'https://secure.vnsh.com/vnshblkgbbswtbonus/advanced-checkout'
+                  'https://secure.vnsh.com/vnshblkgbbswtbonus1/advanced-checkout'
                 )}
                 target="_self"
                 rel="noopener noreferrer"
@@ -136,14 +138,14 @@ const PackageSelection: React.FC = () => {
 
           <div className="pt-4 px-4 pb-4 flex-grow flex flex-col bg-white">
             <div className="flex justify-center items-center gap-2">
-              <span className="text-[40px] font-bold text-black">$149.97</span>
+              <span className="text-[40px] font-bold text-black">$159.97</span>
               <span className="text-[#ff0000] text-lg font-bold">+ Free S&H</span>
             </div>
             <div className="text-black font-bold text-xl mb-2 text-center pt-2">You Saved $120</div>
             <div className="mt-auto">
               <a
                 href={getCheckoutUrl(
-                  'https://secure.vnsh.com/vnshblkgbbswtbonus/enhanced-checkout'
+                  'https://secure.vnsh.com/vnshblkgbbswtbonus1/enhanced-checkout'
                 )}
                 target="_self"
                 rel="noopener noreferrer"
