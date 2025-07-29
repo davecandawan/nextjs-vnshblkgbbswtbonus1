@@ -21,7 +21,7 @@ const PackageSelection: React.FC = () => {
               src="/contentimages/StarterMobileU.webp"
               alt="Starter Package"
               fill
-              className="object-contain"
+              className="object-contain object-top"
               priority
             />
           </div>
@@ -75,7 +75,7 @@ const PackageSelection: React.FC = () => {
               src="/contentimages/AdvancedMobileU2.webp"
               alt="Ultimate Package"
               fill
-              className="object-contain"
+              className="object-contain object-top"
               priority
             />
           </div>
@@ -126,12 +126,12 @@ const PackageSelection: React.FC = () => {
 
         {/* Enhanced Package */}
         <div className="bg-white rounded-2xl shadow-md overflow-hidden border-2 border-[#cdcdcd] w-[320px] flex flex-col order-2">
-          <div className="relative w-full h-[300px] overflow-hidden bg-white">
+          <div className="relative w-full h-[310px] overflow-hidden bg-white">
             <Image
               src="/contentimages/EnhancedMobileU2.webp"
               alt="Enhanced Package"
               fill
-              className=""
+              className="object-contain object-top"
               priority
             />
           </div>
